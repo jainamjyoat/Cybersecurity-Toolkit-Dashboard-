@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Recon DevSecOps Platform</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+</head>
+<body>
+    <div class="background-overlay"></div>
+
+    <header class="header">
+        <div class="logo">CYBER RECON DEVSECOPS PLATFORM</div>
+    </header>
+
+    <section class="hero-section">
+        <div class="hero-left">
+            <h1>
+                PROTECT YOUR<br>
+                DIGITAL ASSETS<br>
+                FROM CYBER THREATS
+            </h1>
+            <p>Automated Reconnaissance + DevSecOps Monitoring Dashboard</p>
+        </div>
+    </section>
+
+    <div class="top-bar">
+        <input type="text" id="target" placeholder="Enter Target URL">
+        <button class="start-btn" onclick="startScan()">Start Scan</button>
+        <button class="stop-btn" onclick="stopScan()">Stop Scan</button>
+        <button class="download-btn" onclick="downloadReport()">Download Report</button>
+    </div>
+
+    <div class="status-bar">
+        <div id="scan-status">Status: Idle</div>
+    </div>
+
+    <div class="main-container">
+        <div class="terminal-panel">
+            <div class="panel-title">Live Terminal Output</div>
+            <div id="terminal"></div>
+        </div>
+
+        <div class="report-panel">
+            <div class="panel-title">Structured Recon Report</div>
+            <div id="report"></div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

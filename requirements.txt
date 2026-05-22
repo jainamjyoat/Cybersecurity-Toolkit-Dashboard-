@@ -1,0 +1,15 @@
+flask
+flask-socketio
+eventlet
+requests
+beautifulsoup4
+python-whois
+dnspython
+builtwith
+python-nmap
+wafw00f
+lxml
+colorama
+tldextract
+PyPDF2
+Pillow

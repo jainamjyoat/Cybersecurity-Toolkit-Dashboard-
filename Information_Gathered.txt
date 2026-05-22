@@ -1,0 +1,114 @@
+OK All IPs gathered (0.1s)
+OK WHOIS lookup complete (0.2s)
+OK DNS enumeration complete — 2 records found (4.8s)
+* SSL subject: ((('commonName', '*.vercel.app'),),)
+* SSL issuer: ((('countryName', 'US'),), (('organizationName', 'Google Trust Service
+* SSL version: 3
+* SSL serialNumber: F47D82F2B89087C40EC4B7D4D324B294
+* SSL notBefore: Apr 28 02:04:43 2026 GMT
+* SSL notAfter: Jul 27 02:04:42 2026 GMT
+* SSL subjectAltName: (('DNS', '*.vercel.app'), ('DNS', 'vercel.app'))
+OK SSL certificate extracted (0.3s)
+OK Geolocation: Walnut, United States (0.2s)
+OK crt.sh error (20.9s)
++ Subdomain alive: www.nt-with-mir-khalid.vercel.app
++ Subdomain alive: mail.nt-with-mir-khalid.vercel.app
++ Subdomain alive: ftp.nt-with-mir-khalid.vercel.app
++ Subdomain alive: admin.nt-with-mir-khalid.vercel.app
++ Subdomain alive: webmail.nt-with-mir-khalid.vercel.app
++ Subdomain alive: smtp.nt-with-mir-khalid.vercel.app
++ Subdomain alive: pop.nt-with-mir-khalid.vercel.app
++ Subdomain alive: ns1.nt-with-mir-khalid.vercel.app
++ Subdomain alive: ns2.nt-with-mir-khalid.vercel.app
++ Subdomain alive: dns.nt-with-mir-khalid.vercel.app
++ Subdomain alive: test.nt-with-mir-khalid.vercel.app
++ Subdomain alive: dev.nt-with-mir-khalid.vercel.app
++ Subdomain alive: staging.nt-with-mir-khalid.vercel.app
++ Subdomain alive: api.nt-with-mir-khalid.vercel.app
++ Subdomain alive: m.nt-with-mir-khalid.vercel.app
++ Subdomain alive: mobile.nt-with-mir-khalid.vercel.app
++ Subdomain alive: blog.nt-with-mir-khalid.vercel.app
++ Subdomain alive: shop.nt-with-mir-khalid.vercel.app
++ Subdomain alive: store.nt-with-mir-khalid.vercel.app
++ Subdomain alive: portal.nt-with-mir-khalid.vercel.app
++ Subdomain alive: vpn.nt-with-mir-khalid.vercel.app
++ Subdomain alive: remote.nt-with-mir-khalid.vercel.app
++ Subdomain alive: secure.nt-with-mir-khalid.vercel.app
++ Subdomain alive: login.nt-with-mir-khalid.vercel.app
++ Subdomain alive: dashboard.nt-with-mir-khalid.vercel.app
++ Subdomain alive: app.nt-with-mir-khalid.vercel.app
++ Subdomain alive: beta.nt-with-mir-khalid.vercel.app
++ Subdomain alive: demo.nt-with-mir-khalid.vercel.app
++ Subdomain alive: status.nt-with-mir-khalid.vercel.app
++ Subdomain alive: docs.nt-with-mir-khalid.vercel.app
++ Subdomain alive: support.nt-with-mir-khalid.vercel.app
++ Subdomain alive: help.nt-with-mir-khalid.vercel.app
++ Subdomain alive: cdn.nt-with-mir-khalid.vercel.app
++ Subdomain alive: static.nt-with-mir-khalid.vercel.app
++ Subdomain alive: media.nt-with-mir-khalid.vercel.app
++ Subdomain alive: img.nt-with-mir-khalid.vercel.app
++ Subdomain alive: images.nt-with-mir-khalid.vercel.app
++ Subdomain alive: assets.nt-with-mir-khalid.vercel.app
++ Subdomain alive: db.nt-with-mir-khalid.vercel.app
++ Subdomain alive: database.nt-with-mir-khalid.vercel.app
++ Subdomain alive: git.nt-with-mir-khalid.vercel.app
++ Subdomain alive: svn.nt-with-mir-khalid.vercel.app
++ Subdomain alive: jenkins.nt-with-mir-khalid.vercel.app
++ Subdomain alive: ci.nt-with-mir-khalid.vercel.app
++ Subdomain alive: build.nt-with-mir-khalid.vercel.app
++ Subdomain alive: deploy.nt-with-mir-khalid.vercel.app
++ Subdomain alive: monitoring.nt-with-mir-khalid.vercel.app
++ Subdomain alive: grafana.nt-with-mir-khalid.vercel.app
++ Subdomain alive: kibana.nt-with-mir-khalid.vercel.app
++ Subdomain alive: elastic.nt-with-mir-khalid.vercel.app
++ Subdomain alive: prometheus.nt-with-mir-khalid.vercel.app
++ Subdomain alive: nagios.nt-with-mir-khalid.vercel.app
++ Subdomain alive: zabbix.nt-with-mir-khalid.vercel.app
+OK Subdomain brute-force — 53 alive out of 53 (2.7s)
+OK Email harvest — 0 found (0.3s)
+OK robots.txt not found (0.3s)
++ Meta tags: 0 found
++ Images: 0 found
++ HTML comments: 0 found
+OK HTML analysis complete — 3 tags, 0 links, 0 forms (0.5s)
+OK Response analysis complete (0.4s)
+OK 8 headers enumerated (0.1s)
+OK Security audit — 1 present, 12 missing (0.1s)
+OK No cookies found (0.1s)
+OK HTTP methods — 7 allowed: GET, POST, PUT, DELETE, PATCH, OPTIONS, HEAD (1.5s)
+OK HTTP header fingerprinting complete (0.3s)
+OK BuiltWith — 0 technologies (0.3s)
+OK whatweb skipped on Windows (optional) (0.1s)
+OK HTML signature scan — 0 technologies detected (0.2s)
+OK Crawl complete — 1 pages, 0 dirs, 0 resources (0.2s)
+OK wget skipped on Windows (optional) (0.1s)
+OK Sitemap scan — not found (2.7s)
+OK Wordlist extraction — 11 words, 6 unique, saved to extracted_wordlist.txt (0.2s)
++ - # Meta tags: 0 extracted
+Extracting metadata and hidden information...  [0s]                                                              + HTML comments: 0 found
+OK Metadata extraction — 0 meta, 0 patterns found (0.3s)
+ℹ wafw00f completed — no WAF detected
+OK wafw00f scan complete (0.1s)
+ℹ No WAF detected via signatures
+OK Signature matching — 0 WAF(s) detected (0.2s)
+OK Trigger test — 0/4 blocked (0.9s)
+OK DNS check — 2 unique IPs (2.5s)
+OK Header check — no indicators (0.2s)
+OK Variation test — 1 unique server value(s) (2.5s)
+OK lbd scan complete (0.1s)
+OK Port scan — 2 open ports found (54.5s)
+OK Nmap skipped (0.1s)
+OK Endpoint probe — 0 endpoints discovered (5.1s)
+OK Raw socket banners complete (10.5s)
+OK Banner: Vercel (0.3s)
+OK Nmap banner scan complete (0.1s)
+OK curl banner complete (0.1s)
+OK Service banner grabbing complete (14.2s)
+OK Brute-force complete — 125 found out of 134 tested (33.9s)
+OK gobuster skipped on Windows (optional) (0.1s)
+OK nikto skipped on Windows (optional) (0.1s)
+OK CONNECT method test complete (16.0s)
+OK Proxy headers — none detected (0.2s)
+OK TRACE test complete (0.4s)
+OK Open proxy forwarding test complete (1.0s)
+OK Proxy port scan — 1 open (21.1s)

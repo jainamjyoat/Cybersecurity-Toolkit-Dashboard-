@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: cyber-recon-deployment
+
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: cyber-recon
+
+  template:
+    metadata:
+      labels:
+        app: cyber-recon
+
+    spec:
+      containers:
+      - name: cyber-recon-container
+        image: cyber-recon
+        imagePullPolicy: Never
+
+        ports:
+        - containerPort: 5000
